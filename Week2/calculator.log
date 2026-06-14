@@ -1,0 +1,11 @@
+2026-06-11 16:17:28 INFO  root                         [MainThread] 日志系统已初始化，日志文件: e:\Development\Workspace\summer-ai-training\Week2\calculator.log
+2026-06-11 16:17:29 INFO  calculator.history           [MainThread] 正在加载历史记录文件: e:\Development\Workspace\summer-ai-training\Week2\calculator\calculator_history.json
+2026-06-11 16:17:29 INFO  calculator.history           [MainThread] 历史记录加载成功: 13 条记录
+2026-06-11 16:17:29 INFO  calculator.calculator        [MainThread] 计算器初始化完成，进入主事件循环
+2026-06-11 16:17:37 DEBUG calculator.calculator        [MainThread] 数字输入: 1 (替换模式)
+2026-06-11 16:17:37 DEBUG calculator.calculator        [MainThread] 运算符输入: /, 当前表达式: 1/
+2026-06-11 16:17:37 DEBUG calculator.calculator        [MainThread] 数字输入: 0 (替换模式)
+2026-06-11 16:17:39 INFO  calculator.expression        [MainThread] 开始解析表达式: 1/0
+2026-06-11 16:17:39 DEBUG calculator.expression        [MainThread] 词法分析结果: [('NUMBER', 1.0), ('DIVIDE', '/'), ('NUMBER', 0.0)]
+2026-06-11 16:17:39 ERROR calculator.expression        [MainThread] 除零错误: 1.0 / 0
+2026-06-11 16:17:39 ERROR calculator.calculator        [MainThread] 表达式解析失败: 除数不能为零, 输入: 1/0
